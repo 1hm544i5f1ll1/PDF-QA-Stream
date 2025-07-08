@@ -8,7 +8,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
 # Initialize OpenAI client using updated interface
-client = OpenAI(api_key=os.environ.get(" "))
+client = OpenAI(api_key=os.environ.get("OpenApiKey"))
 
 # Globals
 pdf_chunks = []
